@@ -77,7 +77,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://deb.debian.org/debian/pool/main/a/allegro4.4/allegro4.4_4.4.2.orig.tar.gz",
+                    "url": "http://pkgs.fedoraproject.org/repo/pkgs/allegro/allegro-4.4.2.tar.gz/4db71b0460fc99926ae91d223199c2e6/allegro-4.4.2.tar.gz",
                     "sha256": "1b21e7577dbfada02d85ca4510bd22fedaa6ce76fde7f4838c7c1276eb840fdc"
                 }
             ]
