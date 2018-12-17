@@ -10,9 +10,9 @@ SentUpstream: 2014-09-17
   <summary>Turn-based artillery strategy game</summary>
   <description>
     <p>
-      Atomic Tanks is a turn based artillery strategy game where opponents
+      Atomic Tanks is a turn-based artillery strategy game where opponents
       take turns to bombard each other with a wide array of different weapons.
-      To make things more interesting, Atomic Tanks also features desctructable
+      To make things more interesting, Atomic Tanks also features destructible
       landscapes, teleporting, parachutes and different weather conditions.
     </p>
   </description>
