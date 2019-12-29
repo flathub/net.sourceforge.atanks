@@ -6,6 +6,7 @@ SentUpstream: 2014-09-17
 -->
 <application>
   <id type="desktop">atanks.desktop</id>
+  <name>Atomic Tanks</name>
   <metadata_license>CC0-1.0</metadata_license>
   <summary>Turn-based artillery strategy game</summary>
   <description>
@@ -20,6 +21,13 @@ SentUpstream: 2014-09-17
   <screenshots>
     <screenshot type="default">http://atanks.sourceforge.net/Screenshots/scrnshot29.png</screenshot>
   </screenshots>
+  <releases>
+    <release version="6.5" date="2016-11-02"/>
+  </releases>
+    <content_rating type="oars-1.1">
+    <content_attribute id="language-profanity">mild</content_attribute>
+    <content_attribute id="language-humor">mild</content_attribute>
+  </content_rating>
   <!-- FIXME: change this to an upstream email address for spec updates
   <updatecontact>someone_who_cares@upstream_project.org</updatecontact>
    -->
