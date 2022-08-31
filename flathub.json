@@ -1,3 +1,5 @@
 {
-    "skip-icons-check": true
+    "skip-icons-check": "true",
+    "end-of-life": "The application has been renamed to io.sourceforge.atanks.",
+    "end-of-life-rebase": "io.sourceforge.atanks"
 }
