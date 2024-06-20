@@ -15,7 +15,8 @@
         "/lib/pkgconfig",
         "/share/aclocal",
         "/share/man",
-        "*.la", "*.a"
+        "*.la",
+        "*.a"
     ],
     "rename-desktop-file": "atanks.desktop",
     "rename-icon": "atanks",
@@ -53,8 +54,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://downloads.sourceforge.net/project/atanks/atanks/atanks-6.5/atanks-6.5.tar.gz",
-                    "sha256": "32182b2752a77ff362c378fc04b7c51fc15345caa4c8deaad59cc850dad2322e"
+                    "url": "https://sourceforge.net/projects/atanks/files/atanks/atanks-6.6/atanks-6.6.tar.gz",
+                    "sha256": "bc6b1efc9fc7e7624fad1d8352d72e927be0fba2160bb25bb6b8bd6c6370bf43"
                 },
                 {
                     "type": "file",

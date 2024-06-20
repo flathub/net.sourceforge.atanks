@@ -22,6 +22,15 @@ SentUpstream: 2014-09-17
     <screenshot type="default">http://atanks.sourceforge.net/Screenshots/scrnshot29.png</screenshot>
   </screenshots>
   <releases>
+    <release version="6.6" date="2021-11-08">
+      <description>
+        <p>This is a major new release of Atomic Tanks, the first in five years!
+          Several improvements have been made and adjusted with regards to AI aiming.
+          We also fixed some crashes, cleaned up some of the building process.</p>
+        <p>A new Theft Bomb item has been added, so check out that in the inventory.
+          Also AI tanks now start with a basic amount of fuel to help them move about.</p>
+      </description>
+    </release>
     <release version="6.5" date="2016-11-02"/>
   </releases>
     <content_rating type="oars-1.1">
