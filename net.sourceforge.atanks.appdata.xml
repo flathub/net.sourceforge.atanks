@@ -4,8 +4,8 @@
 BugReportURL: jessefrgsmith@yahoo.ca
 SentUpstream: 2014-09-17
 -->
-<application>
-  <id type="desktop">atanks.desktop</id>
+<component type="desktop-application">
+  <id>atanks.desktop</id>
   <name>Atomic Tanks</name>
   <metadata_license>CC0-1.0</metadata_license>
   <summary>Turn-based artillery strategy game</summary>
@@ -17,9 +17,13 @@ SentUpstream: 2014-09-17
       landscapes, teleporting, parachutes and different weather conditions.
     </p>
   </description>
-  <url type="homepage">http://atanks.sourceforge.net/index.html</url>
+  <developer_name>The Atomic Tanks Developers</developer_name>
+  <url type="homepage">https://atanks.sourceforge.net/index.html</url>
+  <launchable type="desktop-id">net.sourceforge.atanks.desktop</launchable>
   <screenshots>
-    <screenshot type="default">http://atanks.sourceforge.net/Screenshots/scrnshot29.png</screenshot>
+    <screenshot type="default">
+      <image>https://atanks.sourceforge.net/Screenshots/scrnshot29.png</image>
+    </screenshot>
   </screenshots>
   <releases>
     <release version="6.6" date="2021-11-08">
@@ -40,4 +44,4 @@ SentUpstream: 2014-09-17
   <!-- FIXME: change this to an upstream email address for spec updates
   <updatecontact>someone_who_cares@upstream_project.org</updatecontact>
    -->
-</application>
+</component>
