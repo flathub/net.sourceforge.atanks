@@ -22,7 +22,7 @@
     "rename-desktop-file": "atanks.desktop",
     "rename-icon": "atanks",
     "modules": [
-        "shared-modules/glu-9.json",
+        "shared-modules/glu/glu-9.json",
         {
             "name": "allegro",
             "buildsystem": "cmake",
