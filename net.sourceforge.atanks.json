@@ -19,6 +19,7 @@
         "*.la", "*.a"
     ],
     "rename-desktop-file": "atanks.desktop",
+    "rename-appdata-file": "io.sourceforge.atanks.metainfo.xml",
     "rename-icon": "atanks",
     "modules": [
         "shared-modules/glu/glu-9.json",
@@ -58,17 +59,13 @@
                     "sha256": "32182b2752a77ff362c378fc04b7c51fc15345caa4c8deaad59cc850dad2322e"
                 },
                 {
-                    "type": "file",
-                    "path": "net.sourceforge.atanks.appdata.xml"
-                },
-                {
                     "type": "shell",
                     "commands": ["sed -i 's/-march=native//g' Makefile"]
+                },
+                {
+                    "type": "patch",
+                    "path": "appdata.patch"
                 }
-            ],
-            "post-install": [
-                "mkdir -p /app/share/metainfo",
-                "mv net.sourceforge.atanks.appdata.xml /app/share/metainfo"
             ]
         }
     ]
