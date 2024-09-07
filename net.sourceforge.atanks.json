@@ -25,7 +25,7 @@
         "shared-modules/glu/glu-9.json",
         {
             "name": "allegro",
-            "buildsystem": "cmake",
+            "buildsystem": "cmake-ninja",
             "cleanup": [
                 "/bin",
                 "/doc",
@@ -65,7 +65,7 @@
                 },
                 {
                     "type": "patch",
-                    "patch": "io.sourceforge.atanks.metainfo.xml.patch"
+                    "path": "io.sourceforge.atanks.metainfo.xml.patch"
                 }
             ]
         }
