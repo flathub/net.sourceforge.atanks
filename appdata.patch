@@ -1,0 +1,32 @@
+--- a/io.sourceforge.atanks.metainfo.xml	2021-06-28 18:22:07.000000000 -0500
++++ b/io.sourceforge.atanks.metainfo.xml	2024-09-07 07:20:47.105111612 -0500
+@@ -3,7 +3,7 @@
+ <component type="desktop-application">
+   <metadata_license>CC0-1.0</metadata_license>
+ ​  <project_license>GPL-2.0-or-later</project_license>
+-  <id>io.sourceforge.atanks</id>
++  <id>net.sourceforge.atanks</id>
+   <name>Atomic Tanks</name>
+   <summary>Multi-platform Scorched Earth clone similar to the Worms series of games</summary>
+   <description>
+@@ -63,7 +63,6 @@
+   <url type="bugtracker">https://sourceforge.net/p/atanks/bugs/</url>
+ 
+   <update_contact>ubr47k@users.sourceforge.net</update_contact>
+-  <update_contact>jessefrgsmith@yahoo.ca</update_contact>
+ 
+   <launchable type="desktop-id">atanks.desktop</launchable>
+   <provides>
+@@ -71,9 +70,11 @@
+   </provides>
+ 
+   <releases>
+-    <release version="6.5" date="2016-11-02"/>
++    <release version="6.6" date="2021-08-12"/>
+   </releases>
+ 
++  <developer_name>Atanks</developer_name>
++
+   <categories>
+     <category>Game</category>
+     <category>ArcadeGame</category>
