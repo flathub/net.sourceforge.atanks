@@ -18,6 +18,7 @@
         "/share/man",
         "*.la", "*.a"
     ],
+    "rename-appdata-file": "io.sourceforge.atanks.metainfo.xml",
     "rename-desktop-file": "atanks.desktop",
     "rename-icon": "atanks",
     "modules": [
@@ -61,6 +62,10 @@
                     "type": "script",
                     "commands": [""],
                     "dest-filename": "configure"
+                },
+                {
+                    "type": "patch",
+                    "patch": "io.sourceforge.atanks.metainfo.xml.patch"
                 }
             ]
         }
