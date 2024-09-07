@@ -52,6 +52,9 @@
             "make-install-args": [
                 "PREFIX=/app"
             ],
+            "post-install": [
+                "install -Dm644 atanks2.png /app/share/icons/hicolor/256x256/apps/atanks.png"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -61,6 +64,10 @@
                 {
                     "type": "shell",
                     "commands": ["sed -i 's/-march=native//g' Makefile"]
+                },
+                {
+                    "type": "file",
+                    "path": "atanks2.png"
                 },
                 {
                     "type": "patch",
