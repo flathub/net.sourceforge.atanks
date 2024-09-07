@@ -1,8 +1,9 @@
 {
     "app-id": "net.sourceforge.atanks",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "20.08",
+    "runtime-version": "23.08",
     "sdk": "org.freedesktop.Sdk",
+    "command": "atanks",
     "finish-args": [
         "--device=dri",
         "--persist=.atanks",
@@ -20,7 +21,7 @@
     "rename-desktop-file": "atanks.desktop",
     "rename-icon": "atanks",
     "modules": [
-        "shared-modules/glu/glu-9.json",
+        "shared-modules/glu-9.json",
         {
             "name": "allegro",
             "buildsystem": "cmake",
@@ -43,7 +44,7 @@
         },
         {
             "name": "atanks",
-            "no-autogen": true,
+            "buildsystem": "autotools",
             "make-args": [
                 "PREFIX=/app"
             ],
@@ -53,21 +54,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://downloads.sourceforge.net/project/atanks/atanks/atanks-6.5/atanks-6.5.tar.gz",
-                    "sha256": "32182b2752a77ff362c378fc04b7c51fc15345caa4c8deaad59cc850dad2322e"
+                    "url": "https://downloads.sourceforge.net/project/atanks/atanks/atanks-6.6/atanks-6.6.tar.gz",
+                    "sha256": "bc6b1efc9fc7e7624fad1d8352d72e927be0fba2160bb25bb6b8bd6c6370bf43"
                 },
                 {
-                    "type": "file",
-                    "path": "net.sourceforge.atanks.appdata.xml"
-                },
-                {
-                    "type": "shell",
-                    "commands": ["sed -i 's/-march=native//g' Makefile"]
+                    "type": "script",
+                    "commands": [""],
+                    "dest-filename": "configure"
                 }
-            ],
-            "post-install": [
-                "mkdir -p /app/share/metainfo",
-                "mv net.sourceforge.atanks.appdata.xml /app/share/metainfo"
             ]
         }
     ]
