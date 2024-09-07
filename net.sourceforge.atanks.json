@@ -25,7 +25,7 @@
         "shared-modules/glu/glu-9.json",
         {
             "name": "allegro",
-            "buildsystem": "cmake",
+            "buildsystem": "cmake-ninja",
             "cleanup": [
                 "/bin",
                 "/doc",
