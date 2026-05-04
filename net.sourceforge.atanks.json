@@ -1,7 +1,7 @@
 {
     "app-id": "net.sourceforge.atanks",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "23.08",
+    "runtime-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "atanks",
     "finish-args": [
@@ -13,10 +13,7 @@
     ],
     "cleanup": [
         "/include",
-        "/lib/pkgconfig",
-        "/share/aclocal",
-        "/share/man",
-        "*.la", "*.a"
+        "/lib/pkgconfig"
     ],
     "rename-desktop-file": "atanks.desktop",
     "rename-appdata-file": "io.sourceforge.atanks.metainfo.xml",
@@ -26,6 +23,9 @@
         {
             "name": "allegro",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
+            ],
             "cleanup": [
                 "/bin",
                 "/doc",
